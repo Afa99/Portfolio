@@ -1,4 +1,4 @@
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Hero />
       <About />
       <Skills />
