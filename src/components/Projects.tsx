@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import gusImg from "../assets/gus.svg";
 import nasaImg from "../assets/nasa.jpg"
 import UiUxImg from "../assets/ui-ux.png"
+import retroImg from "../assets/retro.jpg"
 const projects = [
   { 
     title: "Launch Banderogus", 
@@ -18,6 +19,11 @@ const projects = [
     img: nasaImg,
     link: "https://github.com/Afa99/SpaceFlightApp" 
   },
+   { 
+    title: "TelegramBot", 
+    img: retroImg ,
+    link: "https://github.com/Afa99/retroplay-arcade" 
+  },
 ];
 
 export default function Projects() {
@@ -33,7 +39,7 @@ export default function Projects() {
             transition={{ duration: 0.3 }}
             href={p.link}
             target="_blank"
-            className="rounded-xl shadow-xl bg-white dark:bg-gray-800 overflow-hidden block"
+            className="rounded-xl shadow-xl bg-white dark:bg-gray-800 overflow-hidden block j"
           >
             <img src={p.img} className="w-full h-48 object-cover" />
             <div className="p-5 font-semibold text-lg">{p.title}</div>
