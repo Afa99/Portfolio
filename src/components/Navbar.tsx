@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function NavBar() {
+export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = ["Home", "About", "Skills", "Projects", "Contact"];
